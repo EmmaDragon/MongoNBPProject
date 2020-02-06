@@ -113,6 +113,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(326, 389);
             this.Name = "LogIn_Zaposleni";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGOVANJE ZAPOSLENOG";
             this.Load += new System.EventHandler(this.LogIn_Zaposleni_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

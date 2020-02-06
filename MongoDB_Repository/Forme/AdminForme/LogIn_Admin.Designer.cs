@@ -109,6 +109,7 @@
             this.Controls.Add(this.txbUsername);
             this.Controls.Add(this.pictureBox1);
             this.Name = "LogIn_Admin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGOVANJE";
             this.Load += new System.EventHandler(this.LogIn_Admin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

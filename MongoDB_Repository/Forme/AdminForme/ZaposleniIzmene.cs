@@ -158,5 +158,10 @@ namespace MongoDB_Repository.Forme.AdminForme
             forma.ShowDialog();
             this.PopuniTabeluOdgPodacima();
         }
+
+        private void ZaposleniIzmene_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

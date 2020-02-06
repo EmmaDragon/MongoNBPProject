@@ -61,21 +61,18 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(9, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(492, 442);
+            this.groupBox1.Size = new System.Drawing.Size(369, 359);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Licni podaci zaposlenog";
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(279, 338);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEdit.Location = new System.Drawing.Point(209, 275);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(159, 43);
+            this.btnEdit.Size = new System.Drawing.Size(119, 35);
             this.btnEdit.TabIndex = 12;
             this.btnEdit.Text = "Izmeni";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -83,129 +80,117 @@
             // 
             // txbPassword
             // 
-            this.txbPassword.Location = new System.Drawing.Point(203, 274);
-            this.txbPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txbPassword.Location = new System.Drawing.Point(152, 223);
             this.txbPassword.Name = "txbPassword";
-            this.txbPassword.Size = new System.Drawing.Size(233, 23);
+            this.txbPassword.Size = new System.Drawing.Size(176, 20);
             this.txbPassword.TabIndex = 11;
             this.txbPassword.UseSystemPasswordChar = true;
             // 
             // txbUsername
             // 
-            this.txbUsername.Location = new System.Drawing.Point(203, 226);
-            this.txbUsername.Margin = new System.Windows.Forms.Padding(4);
+            this.txbUsername.Location = new System.Drawing.Point(152, 184);
             this.txbUsername.Name = "txbUsername";
-            this.txbUsername.Size = new System.Drawing.Size(233, 23);
+            this.txbUsername.Size = new System.Drawing.Size(176, 20);
             this.txbUsername.TabIndex = 10;
             // 
             // txbZvanje
             // 
-            this.txbZvanje.Location = new System.Drawing.Point(203, 175);
-            this.txbZvanje.Margin = new System.Windows.Forms.Padding(4);
+            this.txbZvanje.Location = new System.Drawing.Point(152, 142);
             this.txbZvanje.Name = "txbZvanje";
-            this.txbZvanje.Size = new System.Drawing.Size(233, 23);
+            this.txbZvanje.Size = new System.Drawing.Size(176, 20);
             this.txbZvanje.TabIndex = 9;
             // 
             // txbJmbg
             // 
-            this.txbJmbg.Location = new System.Drawing.Point(203, 128);
-            this.txbJmbg.Margin = new System.Windows.Forms.Padding(4);
+            this.txbJmbg.Location = new System.Drawing.Point(152, 104);
             this.txbJmbg.Name = "txbJmbg";
             this.txbJmbg.ReadOnly = true;
-            this.txbJmbg.Size = new System.Drawing.Size(233, 23);
+            this.txbJmbg.Size = new System.Drawing.Size(176, 20);
             this.txbJmbg.TabIndex = 8;
             // 
             // txbPrezime
             // 
-            this.txbPrezime.Location = new System.Drawing.Point(203, 79);
-            this.txbPrezime.Margin = new System.Windows.Forms.Padding(4);
+            this.txbPrezime.Location = new System.Drawing.Point(152, 64);
             this.txbPrezime.Name = "txbPrezime";
-            this.txbPrezime.Size = new System.Drawing.Size(233, 23);
+            this.txbPrezime.Size = new System.Drawing.Size(176, 20);
             this.txbPrezime.TabIndex = 7;
             // 
             // txbIme
             // 
-            this.txbIme.Location = new System.Drawing.Point(203, 36);
-            this.txbIme.Margin = new System.Windows.Forms.Padding(4);
+            this.txbIme.Location = new System.Drawing.Point(152, 29);
             this.txbIme.Name = "txbIme";
-            this.txbIme.Size = new System.Drawing.Size(233, 23);
+            this.txbIme.Size = new System.Drawing.Size(176, 20);
             this.txbIme.TabIndex = 6;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 278);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(15, 226);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 17);
+            this.label6.Size = new System.Drawing.Size(37, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "Sifra:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 230);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(15, 187);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 17);
+            this.label5.Size = new System.Drawing.Size(93, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Korisnicko ime:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 132);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(15, 107);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 17);
+            this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Jmbg:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 178);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(15, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 17);
+            this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Zvanje:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 82);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(15, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 17);
+            this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Prezime:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(15, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 17);
+            this.label1.Size = new System.Drawing.Size(31, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ime:";
             // 
             // ZaposleniProfil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(517, 459);
+            this.ClientSize = new System.Drawing.Size(389, 379);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(535, 506);
+            this.MaximumSize = new System.Drawing.Size(405, 418);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(535, 506);
+            this.MinimumSize = new System.Drawing.Size(405, 418);
             this.Name = "ZaposleniProfil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PROFIL ZAPOSLENOG";
+            this.Load += new System.EventHandler(this.ZaposleniProfil_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

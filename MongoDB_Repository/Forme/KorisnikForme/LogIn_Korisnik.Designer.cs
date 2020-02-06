@@ -127,6 +127,7 @@
             this.MinimumSize = new System.Drawing.Size(326, 389);
             this.Name = "LogIn_Korisnik";
             this.Text = "LOGOVANJE KORISNIKA";
+            this.Load += new System.EventHandler(this.LogIn_Korisnik_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

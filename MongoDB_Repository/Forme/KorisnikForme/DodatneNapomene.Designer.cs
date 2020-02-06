@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cmbStanice = new System.Windows.Forms.ComboBox();
-            this.btnPrikazi = new System.Windows.Forms.Button();
             this.txbPadavine = new System.Windows.Forms.RichTextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txbTemperatura = new System.Windows.Forms.RichTextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txbVlaznost = new System.Windows.Forms.RichTextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnPrikazi = new System.Windows.Forms.Button();
+            this.cmbStanice = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -56,6 +56,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Padavine";
             // 
+            // txbPadavine
+            // 
+            this.txbPadavine.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txbPadavine.Location = new System.Drawing.Point(3, 18);
+            this.txbPadavine.Name = "txbPadavine";
+            this.txbPadavine.Size = new System.Drawing.Size(171, 476);
+            this.txbPadavine.TabIndex = 0;
+            this.txbPadavine.Text = "";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txbTemperatura);
@@ -68,6 +77,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Temperatura";
             // 
+            // txbTemperatura
+            // 
+            this.txbTemperatura.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txbTemperatura.Location = new System.Drawing.Point(3, 18);
+            this.txbTemperatura.Name = "txbTemperatura";
+            this.txbTemperatura.Size = new System.Drawing.Size(307, 476);
+            this.txbTemperatura.TabIndex = 0;
+            this.txbTemperatura.Text = "";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txbVlaznost);
@@ -79,6 +97,15 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Vlaznost vazduha";
+            // 
+            // txbVlaznost
+            // 
+            this.txbVlaznost.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txbVlaznost.Location = new System.Drawing.Point(3, 18);
+            this.txbVlaznost.Name = "txbVlaznost";
+            this.txbVlaznost.Size = new System.Drawing.Size(181, 476);
+            this.txbVlaznost.TabIndex = 0;
+            this.txbVlaznost.Text = "";
             // 
             // groupBox4
             // 
@@ -93,6 +120,24 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Vremenska stanica";
             // 
+            // btnPrikazi
+            // 
+            this.btnPrikazi.Location = new System.Drawing.Point(67, 209);
+            this.btnPrikazi.Name = "btnPrikazi";
+            this.btnPrikazi.Size = new System.Drawing.Size(120, 27);
+            this.btnPrikazi.TabIndex = 2;
+            this.btnPrikazi.Text = "Prikazi";
+            this.btnPrikazi.UseVisualStyleBackColor = true;
+            this.btnPrikazi.Click += new System.EventHandler(this.btnPrikazi_Click);
+            // 
+            // cmbStanice
+            // 
+            this.cmbStanice.FormattingEnabled = true;
+            this.cmbStanice.Location = new System.Drawing.Point(19, 159);
+            this.cmbStanice.Name = "cmbStanice";
+            this.cmbStanice.Size = new System.Drawing.Size(168, 24);
+            this.cmbStanice.TabIndex = 1;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -105,51 +150,6 @@
     "no je da izaberete\r\nodgovarajucu \r\nvremensku stanicu.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // cmbStanice
-            // 
-            this.cmbStanice.FormattingEnabled = true;
-            this.cmbStanice.Location = new System.Drawing.Point(19, 159);
-            this.cmbStanice.Name = "cmbStanice";
-            this.cmbStanice.Size = new System.Drawing.Size(168, 24);
-            this.cmbStanice.TabIndex = 1;
-            // 
-            // btnPrikazi
-            // 
-            this.btnPrikazi.Location = new System.Drawing.Point(67, 209);
-            this.btnPrikazi.Name = "btnPrikazi";
-            this.btnPrikazi.Size = new System.Drawing.Size(120, 27);
-            this.btnPrikazi.TabIndex = 2;
-            this.btnPrikazi.Text = "Prikazi";
-            this.btnPrikazi.UseVisualStyleBackColor = true;
-            this.btnPrikazi.Click += new System.EventHandler(this.btnPrikazi_Click);
-            // 
-            // txbPadavine
-            // 
-            this.txbPadavine.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txbPadavine.Location = new System.Drawing.Point(3, 18);
-            this.txbPadavine.Name = "txbPadavine";
-            this.txbPadavine.Size = new System.Drawing.Size(171, 476);
-            this.txbPadavine.TabIndex = 0;
-            this.txbPadavine.Text = "";
-            // 
-            // txbTemperatura
-            // 
-            this.txbTemperatura.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txbTemperatura.Location = new System.Drawing.Point(3, 18);
-            this.txbTemperatura.Name = "txbTemperatura";
-            this.txbTemperatura.Size = new System.Drawing.Size(307, 476);
-            this.txbTemperatura.TabIndex = 0;
-            this.txbTemperatura.Text = "";
-            // 
-            // txbVlaznost
-            // 
-            this.txbVlaznost.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txbVlaznost.Location = new System.Drawing.Point(3, 18);
-            this.txbVlaznost.Name = "txbVlaznost";
-            this.txbVlaznost.Size = new System.Drawing.Size(181, 476);
-            this.txbVlaznost.TabIndex = 0;
-            this.txbVlaznost.Text = "";
-            // 
             // DodatneNapomene
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -161,6 +161,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "DodatneNapomene";
             this.Text = "DODATNE NAPOMENE";
+            this.Load += new System.EventHandler(this.DodatneNapomene_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

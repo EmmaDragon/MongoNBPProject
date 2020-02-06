@@ -83,5 +83,10 @@ namespace MongoDB_Repository.Forme.ZaposleniForme
                 return;
             }
         }
+
+        private void ZaposleniProfil_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

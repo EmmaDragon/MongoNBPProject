@@ -75,7 +75,6 @@ namespace MongoDB_Repository.Forme.KorisnikForme
 
         private void GrafickiPrikaz_Load(object sender, EventArgs e)
         {
-            //ista logika kao kod zaposlenog s tim sto korisnik selektuje stanicu cije podatke zeli da vidi
         }
 
         private void btnPrikazi_Click(object sender, EventArgs e)

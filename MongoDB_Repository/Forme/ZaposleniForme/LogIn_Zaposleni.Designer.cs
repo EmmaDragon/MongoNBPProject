@@ -41,10 +41,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-32, 183);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(-24, 149);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(337, 54);
+            this.label1.Size = new System.Drawing.Size(272, 45);
             this.label1.TabIndex = 13;
             this.label1.Text = "                                 DOBRODOŠLI \r\n                              NA ST" +
     "RANICU ZA \r\n                        LOGOVANJE ZAPOSLENOG";
@@ -52,10 +51,9 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(157, 362);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNext.Location = new System.Drawing.Point(118, 294);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(163, 38);
+            this.btnNext.Size = new System.Drawing.Size(122, 31);
             this.btnNext.TabIndex = 12;
             this.btnNext.Text = "DALJE ";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -66,10 +64,9 @@
             this.txbPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbPassword.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbPassword.HideSelection = false;
-            this.txbPassword.Location = new System.Drawing.Point(84, 306);
-            this.txbPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txbPassword.Location = new System.Drawing.Point(63, 249);
             this.txbPassword.Name = "txbPassword";
-            this.txbPassword.Size = new System.Drawing.Size(235, 26);
+            this.txbPassword.Size = new System.Drawing.Size(177, 22);
             this.txbPassword.TabIndex = 11;
             this.txbPassword.Tag = "";
             this.txbPassword.Text = "Password";
@@ -81,10 +78,9 @@
             // 
             this.txbUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbUsername.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbUsername.Location = new System.Drawing.Point(84, 258);
-            this.txbUsername.Margin = new System.Windows.Forms.Padding(4);
+            this.txbUsername.Location = new System.Drawing.Point(63, 210);
             this.txbUsername.Name = "txbUsername";
-            this.txbUsername.Size = new System.Drawing.Size(235, 26);
+            this.txbUsername.Size = new System.Drawing.Size(177, 22);
             this.txbUsername.TabIndex = 10;
             this.txbUsername.Tag = "";
             this.txbUsername.Text = "Username";
@@ -94,32 +90,31 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(119, 30);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(89, 24);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 138);
+            this.pictureBox1.Size = new System.Drawing.Size(136, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // LogIn_Zaposleni
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(412, 423);
+            this.ClientSize = new System.Drawing.Size(310, 350);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.txbPassword);
             this.Controls.Add(this.txbUsername);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(430, 470);
+            this.MaximumSize = new System.Drawing.Size(326, 389);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(430, 470);
+            this.MinimumSize = new System.Drawing.Size(326, 389);
             this.Name = "LogIn_Zaposleni";
             this.Text = "LOGOVANJE ZAPOSLENOG";
+            this.Load += new System.EventHandler(this.LogIn_Zaposleni_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -61,5 +61,10 @@ namespace MongoDB_Repository.Forme.AdminForme
                 }
             }
         }
+
+        private void LogIn_Admin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

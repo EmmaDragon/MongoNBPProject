@@ -62,5 +62,10 @@ namespace MongoDB_Repository.Forme.ZaposleniForme
                 }
             }
         }
+
+        private void LogIn_Zaposleni_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

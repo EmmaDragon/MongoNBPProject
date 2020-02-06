@@ -92,7 +92,7 @@ namespace MongoDB_Repository.Forme.KorisnikForme
 
         private void VlaznostVazduhaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form forma = new GrafickiPrikaz("vlaznost_vazduha", korisnik);//kao argument string
+            Form forma = new GrafickiPrikaz("vlaznost_vazduha", korisnik);
             forma.MdiParent = this;
             forma.Show();
         }

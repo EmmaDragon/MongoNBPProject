@@ -30,7 +30,7 @@ namespace MongoDB_Repository.Forme.KorisnikForme
             if (Validacija())
             {
                 
-                    Korisnik kor;// = new Korisnik(1, txbIme.Text, txbPrezime.Text, txbUsername.Text, txbPassword.Text);
+                    Korisnik kor;
                     if (txbZvanje.Text != "" && txbJmbg.Text != "" && maskedTextBox1.Text != "")
                         kor = new Korisnik(txbIme.Text, txbPrezime.Text, txbUsername.Text, txbPassword.Text, txbZvanje.Text, txbJmbg.Text, maskedTextBox1.Text);
                     else if (txbZvanje.Text != "" && txbJmbg.Text != "")
@@ -119,6 +119,11 @@ namespace MongoDB_Repository.Forme.KorisnikForme
             else
 
                 return ind;
+        }
+
+        private void KreiranjeNaloga_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

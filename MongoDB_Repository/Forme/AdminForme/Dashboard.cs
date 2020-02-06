@@ -218,5 +218,10 @@ namespace MongoDB_Repository.Forme.AdminForme
             this.cmbStanice.Items.Clear();
             this.PribaviStanice();
         }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

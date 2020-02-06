@@ -172,6 +172,7 @@
             this.MinimumSize = new System.Drawing.Size(955, 489);
             this.Name = "ZaposleniIzmene";
             this.Text = "ZAPOSLENI";
+            this.Load += new System.EventHandler(this.ZaposleniIzmene_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

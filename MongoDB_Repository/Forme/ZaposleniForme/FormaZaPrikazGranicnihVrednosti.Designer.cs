@@ -125,6 +125,7 @@
             this.MinimumSize = new System.Drawing.Size(371, 219);
             this.Name = "FormaZaPrikazGranicnihVrednosti";
             this.Text = "GRANICNE VREDNOSTI";
+            this.Load += new System.EventHandler(this.FormaZaPrikazGranicnihVrednosti_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

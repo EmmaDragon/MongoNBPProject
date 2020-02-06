@@ -79,7 +79,7 @@ namespace MongoDB_Repository.Forme.KorisnikForme
         }
         private void btnIzracunaj_Click(object sender, EventArgs e)
         {
-            //logika ista kao kod zaposlenog
+            
             if (comboBoxVremenskaS.SelectedItem == null)
             {
                 MessageBox.Show("Niste izabrali ni jednu stanicu! Molimo Vas izaberite stanicu.", "Obavestenje", MessageBoxButtons.OK, MessageBoxIcon.Warning);

@@ -61,6 +61,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.datumZaposlenja = new System.Windows.Forms.MaskedTextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -83,7 +84,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.datumZaposlenja = new System.Windows.Forms.MaskedTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -531,6 +531,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Zaposleni";
             // 
+            // datumZaposlenja
+            // 
+            this.datumZaposlenja.Location = new System.Drawing.Point(151, 148);
+            this.datumZaposlenja.Mask = "00/00/0000";
+            this.datumZaposlenja.Name = "datumZaposlenja";
+            this.datumZaposlenja.Size = new System.Drawing.Size(122, 20);
+            this.datumZaposlenja.TabIndex = 23;
+            this.datumZaposlenja.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.datumZaposlenja.ValidatingType = typeof(System.DateTime);
+            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -723,16 +733,6 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Ime:";
             // 
-            // datumZaposlenja
-            // 
-            this.datumZaposlenja.Location = new System.Drawing.Point(151, 148);
-            this.datumZaposlenja.Mask = "00/00/0000";
-            this.datumZaposlenja.Name = "datumZaposlenja";
-            this.datumZaposlenja.Size = new System.Drawing.Size(122, 20);
-            this.datumZaposlenja.TabIndex = 23;
-            this.datumZaposlenja.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.datumZaposlenja.ValidatingType = typeof(System.DateTime);
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -748,6 +748,7 @@
             this.MinimumSize = new System.Drawing.Size(944, 505);
             this.Name = "Dashboard";
             this.Text = "RADNA STRANICA";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);

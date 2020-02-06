@@ -105,5 +105,10 @@ namespace MongoDB_Repository.Forme.AdminForme
                 return;
             }
         }
+
+        private void ZaposleniPodaciIzmena_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

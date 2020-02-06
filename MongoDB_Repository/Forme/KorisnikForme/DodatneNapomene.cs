@@ -131,5 +131,10 @@ namespace MongoNBP.Forme.KorisnikForme
 
 
         }
+
+        private void DodatneNapomene_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

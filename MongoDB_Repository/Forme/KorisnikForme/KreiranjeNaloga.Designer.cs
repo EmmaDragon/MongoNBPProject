@@ -274,6 +274,7 @@
             this.MinimumSize = new System.Drawing.Size(404, 417);
             this.Name = "KreiranjeNaloga";
             this.Text = "KREIRANJE NALOGA";
+            this.Load += new System.EventHandler(this.KreiranjeNaloga_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

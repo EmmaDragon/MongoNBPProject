@@ -78,5 +78,10 @@ namespace MongoDB_Repository.Forme.ZaposleniForme
             lblMinVrednost.Text = vs.minPadavine.ToString() + " l/m2";
             lblMaxVrednost.Text = vs.maxPadavine.ToString() + " l/m2";
         }
+
+        private void FormaZaPrikazGranicnihVrednosti_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

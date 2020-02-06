@@ -73,7 +73,6 @@ namespace MongoDB_Repository.Forme.ZaposleniForme
         private void izmeniLicnePodatkeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form forma = new ZaposleniProfil(this.zaposleni);
-            //forma.MdiParent = this; za sve ostale forme kod zaposlenog ovo mora da se setuje
             forma.ShowDialog();
             var connectionString = "mongodb://localhost/?safe=true";
             var server = MongoServer.Create(connectionString);
@@ -112,7 +111,7 @@ namespace MongoDB_Repository.Forme.ZaposleniForme
 
         private void vlaznostVazduhaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form forma = new GrafickiPrikaz("vlaznost_vazduha", zaposleni);//kao argument string
+            Form forma = new GrafickiPrikaz("vlaznost_vazduha", zaposleni);
             forma.MdiParent = this;
             forma.Show();
         }

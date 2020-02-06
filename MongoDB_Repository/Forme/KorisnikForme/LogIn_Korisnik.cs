@@ -24,7 +24,7 @@ namespace MongoDB_Repository.Forme.KorisnikForme
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            //Logovanje korisnika je identicno kao kod admina i zaposlenog
+            
             var connectionString = "mongodb://localhost/?safe=true";
             var server = MongoServer.Create(connectionString);
             var db = server.GetDatabase("MongoNBP");
@@ -57,6 +57,11 @@ namespace MongoDB_Repository.Forme.KorisnikForme
         {
             Form forma = new KreiranjeNaloga();
             forma.ShowDialog();
+        }
+
+        private void LogIn_Korisnik_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

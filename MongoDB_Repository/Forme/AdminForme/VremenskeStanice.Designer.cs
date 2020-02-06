@@ -168,6 +168,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1134, 533);
             this.Name = "VremenskeStanice";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VREMENSKE STANICE";
             this.Load += new System.EventHandler(this.VremenskeStanice_Load);
             this.ResumeLayout(false);

@@ -37,6 +37,7 @@
             this.formeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statistikaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eksportujMerenjaVremenskihStanicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dodatneNapomeneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.label2 = new System.Windows.Forms.Label();
             this.lblIme = new System.Windows.Forms.Label();
@@ -46,7 +47,6 @@
             this.lblUsername = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.dodatneNapomeneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -130,6 +130,13 @@
             this.eksportujMerenjaVremenskihStanicaToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
             this.eksportujMerenjaVremenskihStanicaToolStripMenuItem.Text = "Eksportuj merenja vremenskih stanica";
             this.eksportujMerenjaVremenskihStanicaToolStripMenuItem.Click += new System.EventHandler(this.EksportujMerenjaVremenskihStanicaToolStripMenuItem_Click);
+            // 
+            // dodatneNapomeneToolStripMenuItem
+            // 
+            this.dodatneNapomeneToolStripMenuItem.Name = "dodatneNapomeneToolStripMenuItem";
+            this.dodatneNapomeneToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
+            this.dodatneNapomeneToolStripMenuItem.Text = "Dodatne napomene";
+            this.dodatneNapomeneToolStripMenuItem.Click += new System.EventHandler(this.dodatneNapomeneToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -269,13 +276,6 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(103, 541);
             this.tableLayoutPanel2.TabIndex = 5;
             // 
-            // dodatneNapomeneToolStripMenuItem
-            // 
-            this.dodatneNapomeneToolStripMenuItem.Name = "dodatneNapomeneToolStripMenuItem";
-            this.dodatneNapomeneToolStripMenuItem.Size = new System.Drawing.Size(285, 22);
-            this.dodatneNapomeneToolStripMenuItem.Text = "Dodatne napomene";
-            this.dodatneNapomeneToolStripMenuItem.Click += new System.EventHandler(this.dodatneNapomeneToolStripMenuItem_Click);
-            // 
             // GlavnaStranica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -288,6 +288,7 @@
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GlavnaStranica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GLAVNA STRANICA KORISNIKA";
             this.Load += new System.EventHandler(this.GlavnaStranica_Load);
             this.menuStrip1.ResumeLayout(false);

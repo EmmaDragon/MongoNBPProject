@@ -245,6 +245,7 @@
             this.MaximumSize = new System.Drawing.Size(400, 380);
             this.MinimumSize = new System.Drawing.Size(400, 380);
             this.Name = "Statistika";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "STATISTIKA";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

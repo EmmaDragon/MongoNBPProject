@@ -171,6 +171,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(955, 489);
             this.Name = "ZaposleniIzmene";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ZAPOSLENI";
             this.Load += new System.EventHandler(this.ZaposleniIzmene_Load);
             this.ResumeLayout(false);

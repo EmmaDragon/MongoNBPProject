@@ -80,6 +80,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(403, 158);
             this.Name = "Eksportovanje";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Eksportovanje";
             this.Load += new System.EventHandler(this.Eksportovanje_Load);
             this.ResumeLayout(false);

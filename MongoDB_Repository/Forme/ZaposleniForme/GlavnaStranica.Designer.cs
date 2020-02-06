@@ -286,7 +286,7 @@
             // unesiPodatkeToolStripMenuItem
             // 
             this.unesiPodatkeToolStripMenuItem.Name = "unesiPodatkeToolStripMenuItem";
-            this.unesiPodatkeToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.unesiPodatkeToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.unesiPodatkeToolStripMenuItem.Text = "Unesi podatke";
             this.unesiPodatkeToolStripMenuItem.Click += new System.EventHandler(this.unesiPodatkeToolStripMenuItem_Click);
             // 
@@ -325,14 +325,14 @@
             // statistikaToolStripMenuItem
             // 
             this.statistikaToolStripMenuItem.Name = "statistikaToolStripMenuItem";
-            this.statistikaToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.statistikaToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.statistikaToolStripMenuItem.Text = "Statistika";
             this.statistikaToolStripMenuItem.Click += new System.EventHandler(this.statistikaToolStripMenuItem_Click);
             // 
             // izmeniLicnePodatkeToolStripMenuItem
             // 
             this.izmeniLicnePodatkeToolStripMenuItem.Name = "izmeniLicnePodatkeToolStripMenuItem";
-            this.izmeniLicnePodatkeToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.izmeniLicnePodatkeToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.izmeniLicnePodatkeToolStripMenuItem.Text = "Izmeni licne podatke";
             this.izmeniLicnePodatkeToolStripMenuItem.Click += new System.EventHandler(this.izmeniLicnePodatkeToolStripMenuItem_Click);
             // 
@@ -377,6 +377,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GlavnaStranica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GLAVNA STRANICA ZAPOSLENOG";
             this.Load += new System.EventHandler(this.GlavnaStranica_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

@@ -169,6 +169,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(413, 382);
             this.Name = "ZaposleniPodaciIzmena";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ZAPOSLENI";
             this.Load += new System.EventHandler(this.ZaposleniPodaciIzmena_Load);
             this.groupBox1.ResumeLayout(false);

@@ -124,6 +124,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(371, 219);
             this.Name = "FormaZaPrikazGranicnihVrednosti";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GRANICNE VREDNOSTI";
             this.Load += new System.EventHandler(this.FormaZaPrikazGranicnihVrednosti_Load);
             this.ResumeLayout(false);

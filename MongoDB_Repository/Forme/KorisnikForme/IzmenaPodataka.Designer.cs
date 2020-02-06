@@ -274,6 +274,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(408, 425);
             this.Name = "IzmenaPodataka";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IZMENA PODATAKA";
             this.Load += new System.EventHandler(this.IzmenaPodataka_Load);
             this.groupBox1.ResumeLayout(false);

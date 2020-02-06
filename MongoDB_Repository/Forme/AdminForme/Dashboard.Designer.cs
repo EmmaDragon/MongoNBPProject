@@ -747,6 +747,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(944, 505);
             this.Name = "Dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RADNA STRANICA";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

@@ -160,6 +160,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "DodatneNapomene";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DODATNE NAPOMENE";
             this.Load += new System.EventHandler(this.DodatneNapomene_Load);
             this.groupBox1.ResumeLayout(false);

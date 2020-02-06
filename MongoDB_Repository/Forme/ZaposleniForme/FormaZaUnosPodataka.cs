@@ -17,6 +17,8 @@ namespace MongoDB_Repository.Forme.ZaposleniForme
 {
     public partial class FormaZaUnosPodataka : Form
     {
+        //NAPOMENA: dodato je automatsko unosenje vrednosti na 5s samo kako bi se olaksalo testiranje aplikacije
+        
         private Zaposleni zaposleni;
         private VremenskaStanica vs;
         private int brojac = 0;

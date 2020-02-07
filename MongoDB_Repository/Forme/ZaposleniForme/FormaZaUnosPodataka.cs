@@ -186,11 +186,13 @@ namespace MongoDB_Repository.Forme.ZaposleniForme
                 brojac = 0;
                 timer1.Interval = 1000;
                 timer1.Start();
+                btnProsledi.Enabled = false;
             }
             else
             {
                 brojac = 0;
                 timer1.Stop();
+                btnProsledi.Enabled = true;
             }
         }
     }
